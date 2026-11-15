@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-15T15:14:44Z",
+  "incident_note": null,
+  "last_good_nightly": "2026-11-15",
+  "last_good_nightly_at": "2026-11-15T14:38:51Z",
+  "nightly_mr": {
+    "state": "merged",
+    "merged_at": "2026-11-15T14:43:22Z"
+  },
+  "gxd_master": {
+    "committed_at": "2026-11-15T14:43:20Z"
+  },
+  "artifacts": {
+    "nightly": "2026-11-15T14:33:38Z",
+    "weekly": null
+  },
+  "open_incident": false,
+  "overall": "yellow",
+  "checks": {
+    "downloader": "green",
+    "nightly-mr": "green",
+    "gxd-master": "green",
+    "gxd:nightly-artifacts": "green",
+    "gxd:weekly-artifacts": "yellow",
+    "gxd:ci-weekly": "green",
+    "gxd:register-archives": "green",
+    "site": "green"
+  }
+}
