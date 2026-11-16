@@ -1,6 +1,6 @@
 # status
 
-[![pipeline](https://img.shields.io/endpoint?url=https://status.centuryarcade.org/badge.json)](https://status.centuryarcade.org/) [![nightly](https://img.shields.io/endpoint?url=https://status.centuryarcade.org/badge-downloader.json)](https://status.centuryarcade.org/)
+[![pages](https://img.shields.io/github/actions/workflow/status/century-arcade/status/pages%2Fpages-build-deployment?branch=main&label=pages)](https://github.com/century-arcade/status/actions/workflows/pages/pages-build-deployment) [![pipeline](https://img.shields.io/endpoint?url=https://status.centuryarcade.org/badge.json)](https://status.centuryarcade.org/) [![nightly](https://img.shields.io/endpoint?url=https://status.centuryarcade.org/badge-downloader.json)](https://status.centuryarcade.org/)
 
 The public status page of the Century Arcade crossword pipeline, served at https://status.centuryarcade.org/ by GitHub Pages.
 
