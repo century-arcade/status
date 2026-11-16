@@ -11,7 +11,7 @@
 body { background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; margin:0; padding:0 16px; }
 main { max-width:42rem; margin:2.5rem auto; }
 h1 { font-size:1.5rem; margin:0 0 .25rem; }
-.overall { font-size:1.15rem; margin:1rem 0; padding:.75rem 1rem; border-left:6px solid var(--yellow); background:color-mix(in srgb, var(--yellow) 10%, transparent); }
+.overall { font-size:1.15rem; margin:1rem 0; padding:.75rem 1rem; border-left:6px solid var(--red); background:color-mix(in srgb, var(--red) 10%, transparent); }
 .note { margin:.5rem 0 1rem; }
 table { width:100%; border-collapse:collapse; }
 td { padding:.6rem .4rem; border-top:1px solid var(--line); vertical-align:top; }
@@ -28,11 +28,11 @@ a { color:inherit; }
 <main>
 <h1>Century Arcade status</h1>
 <p class="muted">The nightly pipeline behind the <a href="https://centuryarcade.org/xd/">xd crossword corpus</a>.</p>
-<div class="overall">Something looks unusual</div>
+<div class="overall">Something is broken</div>
 
-<table><tr><td><span class="dot green"></span>OK</td><td><strong>Nightly download and import</strong><br><small>gxd-downloader&#x27;s 08:30 UTC run</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Nightly merge into the corpus</strong><br><small>the day&#x27;s puzzles landed in gxd</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Corpus updated</strong><br><small>gxd master moved in the last 30 hours</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Nightly index build</strong><br><small>gxd.sqlite and TSVs, daily 03:00 PT</small></td></tr><tr><td><span class="dot yellow"></span>Unusual</td><td><strong>Weekly index build with lint</strong><br><small>Mondays 06:00 PT</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Weekly corpus checks</strong><br><small>Mondays 06:00 PT</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Source archive register</strong><br><small>Mondays 07:00 PT</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Websites</strong><br><small>centuryarcade.org/xd/ and xd.saul.pw</small></td></tr></table>
-<dl><dt>Last good nightly</dt><dd>2026-11-15</dd><dt>Today's nightly merge</dt><dd>merged</dd><dt>Corpus last updated</dt><dd>2026-11-15 18:02 UTC</dd><dt>Nightly index built</dt><dd>2026-11-15 14:33 UTC</dd><dt>Weekly index built</dt><dd>—</dd></dl>
-<p class="muted"><small>Checked 2026-11-16 01:58 UTC. Machine-readable: <a href="status.json">status.json</a>.</small></p>
+<table><tr><td><span class="dot red"></span>Failing</td><td><strong>Nightly download and import</strong><br><small>gxd-downloader&#x27;s 08:30 UTC run</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Nightly merge into the corpus</strong><br><small>the day&#x27;s puzzles landed in gxd</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Corpus updated</strong><br><small>gxd master moved in the last 30 hours</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Nightly index build</strong><br><small>gxd.sqlite and TSVs, daily 03:00 PT</small></td></tr><tr><td><span class="dot yellow"></span>Unusual</td><td><strong>Weekly index build with lint</strong><br><small>Mondays 06:00 PT</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Weekly corpus checks</strong><br><small>Mondays 06:00 PT</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Source archive register</strong><br><small>Mondays 07:00 PT</small></td></tr><tr><td><span class="dot green"></span>OK</td><td><strong>Websites</strong><br><small>centuryarcade.org/xd/ and xd.saul.pw</small></td></tr></table>
+<dl><dt>Last good nightly</dt><dd>—</dd><dt>Today's nightly merge</dt><dd>none yet</dd><dt>Corpus last updated</dt><dd>2026-11-15 18:02 UTC</dd><dt>Nightly index built</dt><dd>2026-11-15 14:33 UTC</dd><dt>Weekly index built</dt><dd>—</dd></dl>
+<p class="muted"><small>Checked 2026-11-16 01:59 UTC. Machine-readable: <a href="status.json">status.json</a>.</small></p>
 </main>
 </body>
 </html>
