@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-16T21:09:14Z",
-  "incident_note": null,
-  "last_good_nightly": "2026-11-16",
-  "last_good_nightly_at": "2026-11-16T18:49:51Z",
+  "generated_at": "2026-11-17T12:22:58Z",
+  "incident_note": "1 open incident (sev:2); being looked at.",
+  "last_good_nightly": "2026-11-17",
+  "last_good_nightly_at": "2026-11-17T12:06:46Z",
   "gxd_master": {
-    "committed_at": "2026-11-16T18:54:54Z"
+    "committed_at": "2026-11-17T12:13:30Z"
   },
   "artifacts": {
-    "nightly": "2026-11-16T11:11:47Z",
+    "nightly": "2026-11-17T11:10:25Z",
     "weekly": "2026-11-16T14:16:33Z"
   },
-  "open_incident": false,
+  "open_incident": true,
   "overall": "red",
   "checks": {
     "downloader": "unknown",
