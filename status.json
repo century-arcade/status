@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-19T09:06:07Z",
+  "generated_at": "2026-11-20T09:06:05Z",
   "incident_note": null,
-  "last_good_nightly": "2026-11-19",
-  "last_good_nightly_at": "2026-11-19T08:30:33Z",
+  "last_good_nightly": "2026-11-20",
+  "last_good_nightly_at": "2026-11-20T08:30:33Z",
   "nightly_mr": {
     "state": "merged",
-    "merged_at": "2026-11-19T08:36:25Z"
+    "merged_at": "2026-11-20T08:36:47Z"
   },
   "gxd_master": {
-    "committed_at": "2026-11-19T08:36:24Z"
+    "committed_at": "2026-11-20T08:36:46Z"
   },
   "artifacts": {
-    "nightly": "2026-11-18T11:13:42Z",
+    "nightly": "2026-11-19T11:13:25Z",
     "weekly": "2026-11-19T04:26:38Z"
   },
   "open_incident": false,
