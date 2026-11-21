@@ -1,24 +1,24 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T09:06:10Z",
-  "incident_note": null,
-  "last_good_nightly": "2026-11-20",
-  "last_good_nightly_at": "2026-11-20T08:30:33Z",
+  "generated_at": "2026-11-21T15:19:07Z",
+  "incident_note": "1 open incident (sev:3); being looked at.",
+  "last_good_nightly": "2026-11-21",
+  "last_good_nightly_at": "2026-11-21T12:19:09Z",
   "nightly_mr": {
     "state": "merged",
-    "merged_at": "2026-11-21T08:36:56Z"
+    "merged_at": "2026-11-21T12:21:59Z"
   },
   "gxd_master": {
-    "committed_at": "2026-11-21T08:36:55Z"
+    "committed_at": "2026-11-21T12:21:58Z"
   },
   "artifacts": {
-    "nightly": "2026-11-20T11:11:22Z",
+    "nightly": "2026-11-21T11:10:32Z",
     "weekly": "2026-11-19T04:26:38Z"
   },
-  "open_incident": false,
-  "overall": "red",
+  "open_incident": true,
+  "overall": "yellow",
   "checks": {
-    "downloader": "red",
+    "downloader": "yellow",
     "nightly-mr": "green",
     "gxd-master": "green",
     "gxd:nightly-artifacts": "green",
